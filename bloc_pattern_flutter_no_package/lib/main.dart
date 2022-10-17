@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learning_bloc_pattern_flutter/client.dart';
 import 'package:learning_bloc_pattern_flutter/client_page.dart';
 
 void main() {

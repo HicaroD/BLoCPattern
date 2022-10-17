@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:learning_bloc_pattern_flutter/ClientRepository.dart';
+import 'package:learning_bloc_pattern_flutter/client_repository.dart';
 import 'package:learning_bloc_pattern_flutter/blocs/client_events.dart';
 
 import '../client.dart';
