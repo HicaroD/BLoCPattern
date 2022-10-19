@@ -1,4 +1,4 @@
-# bloc_pattern_flutter_with_packages
+# learning_bloc_pattern_flutter
 
 A new Flutter project.
 

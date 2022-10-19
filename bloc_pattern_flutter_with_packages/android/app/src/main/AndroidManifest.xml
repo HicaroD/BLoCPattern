@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bloc_pattern_flutter_with_packages">
+    package="com.example.learning_bloc_pattern_flutter">
    <application
-        android:label="bloc_pattern_flutter_with_packages"
+        android:label="learning_bloc_pattern_flutter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,6 +1,6 @@
 {
-    "name": "bloc_pattern_flutter_with_packages",
-    "short_name": "bloc_pattern_flutter_with_packages",
+    "name": "learning_bloc_pattern_flutter",
+    "short_name": "learning_bloc_pattern_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
