@@ -1,13 +1,13 @@
-import 'package:learning_bloc_pattern_flutter/client.dart';
+import 'package:bloc_pattern_flutter_with_packages/client.dart';
 
 class ClientRepository {
   final List<Client> _clients = [];
 
   List<Client> loadClients() {
     _clients.addAll([
-      Client(name: "Hícaro"),
-      Client(name: "Hilbert"),
-      Client(name: "Maria"),
+      Client(name: "Hícaro", age: 10),
+      Client(name: "Hilbert", age: 30),
+      Client(name: "Maria", age: 10)
     ]);
 
     return _clients;

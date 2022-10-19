@@ -1,8 +1,8 @@
-# Install script for directory: /home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/linux
+# Install script for directory: /home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,83 +44,83 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter")
+  if(EXISTS "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter"
+         FILE "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter")
+   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/intermediates_do_not_run/learning_bloc_pattern_flutter")
-  if(EXISTS "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter")
+  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/intermediates_do_not_run/bloc_pattern_flutter_with_packages")
+  if(EXISTS "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter"
-         OLD_RPATH "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages"
+         OLD_RPATH "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/llvm-strip" "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/learning_bloc_pattern_flutter")
+      execute_process(COMMAND "/usr/bin/llvm-strip" "$ENV{DESTDIR}/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/bloc_pattern_flutter_with_packages")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/data/icudtl.dat")
+   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/linux/flutter/ephemeral/icudtl.dat")
+  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
+   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/data/flutter_assets")
+   "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build//flutter_assets")
+  file(INSTALL DESTINATION "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
@@ -132,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

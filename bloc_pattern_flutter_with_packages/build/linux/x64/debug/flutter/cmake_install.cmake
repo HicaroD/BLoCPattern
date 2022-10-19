@@ -1,8 +1,8 @@
-# Install script for directory: /home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/linux/flutter
+# Install script for directory: /home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/hicaro/Documentos/Prototypes/learning_bloc_pattern_flutter/bloc_pattern_flutter_with_packages/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
